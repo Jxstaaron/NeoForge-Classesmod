@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "classaddmod:item/erythrium"
+    "layer0": "classaddmod:item/healer_upgrade_stone"
   }
 }

@@ -1,11 +1,21 @@
 {
-  "item.classaddmod.kyanosium": "Kyanosium",
-  "item.classaddmod.erythrium": "Erythrium",
-  "item.classaddmod.chlorosium": "Chlorosium",
+  "item.classaddmod.mage_upgrade_stone": "Mage's Stone",
+  "item.classaddmod.knight_upgrade_stone": "Knight's Stone",
+  "item.classaddmod.ranger_upgrade_stone": "Ranger's Stone",
+  "item.classaddmod.assassin_upgrade_stone": "Assassin's Stone",
+  "item.classaddmod.healer_upgrade_stone": "Healer's Stone",
+  "item.classaddmod.necromancer_upgrade_stone": "Necromancer's Stone",
+  "item.classaddmod.tank_upgrade_stone": "Tank's Stone",
+  "item.classaddmod.tamer_upgrade_stone": "Tamer's Stone",
   "item.classaddmod.short_dagger": "Short Dagger",
 
 
-  "creativetab.classaddmod.mage_items": "Mage Items",
-  "creativetab.classaddmod.knight_items": "Knight Items",
-  "creativetab.classaddmod.archer_items": "Archer Items"
+  "creativetab.classaddmod.mage_items": "Mage",
+  "creativetab.classaddmod.knight_items": "Knight",
+  "creativetab.classaddmod.archer_items": "Archer",
+  "creativetab.classaddmod.assassin_items": "Assassin",
+  "creativetab.classaddmod.healer_items": "Healer",
+  "creativetab.classaddmod.necromancer_items": "Necromancer",
+  "creativetab.classaddmod.tank_items": "Tank",
+  "creativetab.classaddmod.tamer_items": "Tamer"
 }

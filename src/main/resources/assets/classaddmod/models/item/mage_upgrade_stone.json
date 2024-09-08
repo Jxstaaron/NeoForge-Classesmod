@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "classaddmod:item/chlorosium"
+    "layer0": "classaddmod:item/mage_upgrade_stone"
   }
 }

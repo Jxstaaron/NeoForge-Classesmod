@@ -3,6 +3,7 @@ package net.jxstaaron.classaddmod.item;
 import net.jxstaaron.classaddmod.ClassAddMod;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.TridentItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -20,11 +21,22 @@ public class ModSwords {
             () -> new SwordItem(BASIC_TIER, new Item.Properties().attributes(
                     SwordItem.createAttributes(
                             BASIC_TIER,
-                            10,
+                            0,
                             10f
                     )
             )
             ));
+
+    public static final Supplier<SwordItem> TANK_HAMMER = WEAPONITEMS.register("tank_hammer",
+            () -> new SwordItem(BASIC_TIER, new Item.Properties().attributes(
+                    SwordItem.createAttributes(
+                            BASIC_TIER,
+                            110,
+                            -3.6f
+                    )
+            )
+            ));
+
 
     public static void register(IEventBus eventBus) {
         WEAPONITEMS.register(eventBus);
